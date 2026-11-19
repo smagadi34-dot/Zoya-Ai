@@ -1,0 +1,22 @@
+zoya-voice-assistant/
+├── .env.example
+├── index.html
+├── package.json
+├── tsconfig.json
+├── vite.config.ts
+└── src/
+    ├── main.tsx
+    ├── index.css
+    ├── App.tsx
+    ├── types/
+    │   └── assistant.ts
+    ├── config/
+    │   └── zoyaPersona.ts
+    ├── services/
+    │   ├── AudioStreamer.ts
+    │   ├── LiveSession.ts
+    │   └── tools.ts
+    └── components/
+        ├── VoiceOrb.tsx
+        ├── StatusPill.tsx
+        └── ApiKeyModal.tsx
